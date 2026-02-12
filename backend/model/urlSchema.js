@@ -6,9 +6,9 @@ const urlSchema = new mongoose.Schema({
         required: true
     },
     redirectUrl: {
-        type: String,
-        required: true
-    },
+        type: String
+    }
+
 }, {timestamps: true});
 
 const UrlSchema = mongoose.model("Urls", urlSchema)

@@ -1,0 +1,81 @@
+ .app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+  background: radial-gradient(circle at top, #0f172a 0, #020617 55%, #000 100%);
+  color: #0b1120;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 480px;
+  background: rgba(248, 250, 252, 0.98);
+  border-radius: 1.25rem;
+  padding: 2rem 1.75rem 1.75rem;
+  box-shadow:
+    0 24px 60px rgba(15, 23, 42, 0.6),
+    0 0 0 1px rgba(148, 163, 184, 0.25);
+  box-sizing: border-box;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.85rem;
+  letter-spacing: -0.03em;
+  color: #020617;
+}
+
+.subtitle {
+  margin: 0.4rem 0 0;
+  font-size: 0.95rem;
+  color: #64748b;
+}
+
+.section {
+  margin-top: 1.75rem;
+}
+
+.sectionLabel {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #94a3b8;
+}
+
+.placeholderBox {
+  border-radius: 0.9rem;
+  border: 1px dashed rgba(148, 163, 184, 0.7);
+  padding: 1.25rem 1rem;
+  background: radial-gradient(circle at top left, #e5f0ff 0, #f8fafc 45%, #ffffff 100%);
+}
+
+.placeholderText {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 1.6rem 1.25rem 1.4rem;
+  }
+
+  .title {
+    font-size: 1.55rem;
+  }
+}
+
